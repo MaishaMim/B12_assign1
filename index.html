@@ -1,38 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment1_B12</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
+
 <body class="raleway-normal">
     <header>
         <nav>
             <h3 class="nav-title text-primary">Maisha</h3>
             <ul>
-                <li><a href=""><button class="btn-primary" >sign Up</button></a></li>
+                <li><a href=""><button class="btn-primary">sign Up</button></a></li>
             </ul>
         </nav>
         <div class="banner">
-            
-            <div class="banner-contant">
-             <h1 class="banner-title">Cool Dark UI Template for <br> Webflow Agencies!</h1>
-             <button class="btn-primary">Stay Focused</button>
+
+            <div class="banner-content">
+                <h1 class="banner-title">Cool Dark UI Template for <br> Webflow Agencies!</h1>
+                <button class="btn-primary">Stay Focused</button>
             </div>
-            
+
         </div>
         <img src="images/Hero-bg.png" class="hero-bg" alt="">
     </header>
     <main>
+<section class="action-section">
+  <div class="action-content">
+    <div class="text-content">
+      <h2>See It in Action</h2>
+      <p>Explore the live preview and imagine your brand in this bold new look.</p>
+      <button class="btn-primary">Launch Live Preview</button>
+    </div>
+    <div class="image-content">
+      <img src="images/wc-mini.png" alt="Webflow Conf Image">
+    </div>
+  </div>
+</section>
+<section class="stats-section">
+  <h2 class="stats-heading">Joined Thousands of Productive Users</h2>
+  <div class="stats-container">
+    <div class="stat-box">
+      <h3 class="stat-value">50K</h3>
+      <p class="stat-label">Active Users</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="stat-value">2M+</h3>
+      <p class="stat-label">Focus Sessions</p>
+    </div>
+    <div class="stat-box">
+      <h3 class="stat-value">95%</h3>
+      <p class="stat-label">Satisfaction Rate</p>
+    </div>
+  </div>
+</section>
+<section class="reviews-section">
+  <h2 class="reviews-heading">What our users say</h2>
+  <div class="reviews-container">
 
-        </main>
-        <footer>
-            
-        </footer>
-    
+    <!-- Review Card 1 -->
+    <div class="review-card">
+      <div class="star-row">
+  <img src="images/icon-star.png" alt="Star" class="star-img">
+  <img src="images/icon-star.png" alt="Star" class="star-img">
+  <img src="images/icon-star.png" alt="Star" class="star-img">
+  <img src="images/icon-star.png" alt="Star" class="star-img">
+  <img src="images/icon-star.png" alt="Star" class="star-img">
+</div>
+      <h3 class="review-title">Loved by Designers</h3>
+      <p class="review-text">This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer-info">
+        <img src="images/avatar.png" alt="Reviewer photo" class="reviewer-img">
+        <div class="reviewer-details">
+          <p class="reviewer-name">Reviewer name</p>
+          <p class="review-date">Date</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repeat for 2 more cards -->
+    <div class="review-card">
+      <img src="images/icon-star.png" alt="5 stars" class="star-img">
+      <h3 class="review-title">Loved by Designers</h3>
+      <p class="review-text">This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer-info">
+        <img src="images/avatar.png" alt="Reviewer photo" class="reviewer-img">
+        <div class="reviewer-details">
+          <p class="reviewer-name">Reviewer name</p>
+          <p class="review-date">Date</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <img src="images/icon-star.png" alt="5 stars" class="star-img">
+      <h3 class="review-title">Loved by Designers</h3>
+      <p class="review-text">This template instantly leveled up our presence.” ~ Studio Vertex</p>
+      <div class="reviewer-info">
+        <img src="images/avatar.png" alt="Reviewer photo" class="reviewer-img">
+        <div class="reviewer-details">
+          <p class="reviewer-name">Reviewer name</p>
+          <p class="review-date">Date</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="container">
+    <div class="header-section">
+        <h1 class="main-heading">Ready to focus better</h1>
+        <p class="subheading">"This template instantly leveled up our presence." – Studio Vertex</p>
+        <button class="btn-primary">Get Started Free</button>
+    </div>
+
+    <div class="image-section">
+        <img src="images/wc-big.png" alt="Webflow Conf 2022" class="focus-img">
+    </div>
+</section>
+<section class="contact-container">
+  <div class="contact-grid">
+    <!-- Left Side Text -->
+    <div class="contact-left">
+      <h2 class="contact-title">Let's Get in<br>Touch</h2>
+    </div>
+
+    <!-- Right Side Form -->
+    <form class="contact-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="full name" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="write your message...." required></textarea>
+
+      <button type="submit" class="btn-primary">Get in Touch</button>
+    </form>
+  </div>
+</section>
+    </main>
+    <footer class="site-footer">
+  <div class="footer-logo">LOGO</div>
+  <p class="footer-description">
+    Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+  </p>
+  <ul class="footer-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">How it Works</a></li>
+    <li><a href="#">Services</a></li>
+  </ul>
+</footer>
+
 </body>
+
 </html>

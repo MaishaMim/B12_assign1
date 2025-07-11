@@ -15,7 +15,8 @@
 }
 header{
     width: 100%;
-    height: 100vh;
+    height: 698px;
+    /* height: 100vh; */
     position: relative;
     overflow: hidden;
 }
@@ -36,6 +37,15 @@ font-size: 16px;
 padding: 10px 35px;
 border-radius: 10px;
 border: none;
+cursor: pointer;
+transition:  transform 0.5s ease, background-color 0.5s ease;
+}
+
+.btn-primary:hover {
+    background-color: yellow;
+    color:  #4E47FF;
+      transform: scale(1.4); 
+
 }
 .nav-title{
     font-family: "Inter", sans-serif;
@@ -62,7 +72,7 @@ font-weight: 700; */
  line-height: 1.2;
  margin-bottom: 30px;
 }
-.banner-contant{
+.banner-content{
 max-width: 905px;
 padding: 20px;
 text-align: center;
@@ -70,7 +80,7 @@ z-index: 2;
 }
 .banner{
     position: relative;
-    height: calc(100vh - 120px); 
+    /* height: calc(100vh - px);  */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,4 +95,328 @@ z-index: 2;
     object-fit: cover;
     z-index: -1;
 
+}
+
+/* action section */
+.action-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 50px; */
+  padding: 80px 200px 20px;
+  background-color: #f8f8f8;
+}
+
+.action-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1140px; */
+  width: 100%;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h2 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* state section */
+
+.stats-section {
+  background-color: #ecebff;
+  margin: 80px auto;
+  padding: 50px 30px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 1140px;
+  height: 306px;
+}
+
+.stats-heading {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1 1 200px;
+}
+
+.stat-value {
+  font-size: 80px;
+  font-weight: 900;
+  color: #4E47FF;
+  margin-top: 40px;
+  margin-bottom: 8px;
+  font-family: "Inter", sans-serif;
+}
+
+.stat-label {
+  font-size: 16px;
+  color: #666;
+  font-family: "Raleway", sans-serif;
+}
+
+/* review */
+
+.reviews-section {
+  padding: 60px 20px;
+  background-color: #f6f8ff;
+  text-align: center;
+}
+
+.reviews-heading {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 280px;
+  text-align: left;
+}
+
+.star-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+.star-img {
+  height: 20px;
+  width: 20px;
+}
+
+.review-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #888;
+}
+
+/* focus section */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2d2d2d;
+    margin-bottom: 15px;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+.image-section {
+    text-align: center;
+}
+
+.focus-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 48px;
+}
+
+/* contact form */
+
+.contact-container {
+    background-color: #f5f7ff;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-grid {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 12px;
+    gap: 60px;
+}
+
+.contact-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title {
+    font-size: 97px;
+    font-weight: bold;
+    color: #111;
+    line-height: 1.2;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #444;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 20px;
+     font-weight: 400;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.submit-button {
+    padding: 14px;
+    background-color: #4F46E5;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* footer */
+
+.site-footer {
+    background-color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-logo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #4F46E5;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #888;
+    font-size: 16px;
+    transition: color 0.2s;
 }
