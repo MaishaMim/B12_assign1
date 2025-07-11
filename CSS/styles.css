@@ -16,7 +16,6 @@
 header{
     width: 100%;
     height: 698px;
-    /* height: 100vh; */
     position: relative;
     overflow: hidden;
 }
@@ -61,8 +60,7 @@ nav ul li{
 }
 nav li a {
 text-decoration: none;
-/* font-size: 16;
-font-weight: 700; */
+
 }
 .banner-title{
  font-weight: bold;
@@ -80,11 +78,9 @@ z-index: 2;
 }
 .banner{
     position: relative;
-    /* height: calc(100vh - px);  */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 .hero-bg{
     position: absolute;
@@ -102,7 +98,6 @@ z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 50px; */
   padding: 80px 200px 20px;
   background-color: #f8f8f8;
 }
@@ -111,7 +106,6 @@ z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 1140px; */
   width: 100%;
 }
 
@@ -140,7 +134,7 @@ z-index: 2;
 
 /* state section */
 
-.stats-section {
+.states-section {
   background-color: #ecebff;
   margin: 80px auto;
   padding: 50px 30px;
@@ -150,7 +144,7 @@ z-index: 2;
   height: 306px;
 }
 
-.stats-heading {
+.states-heading {
   font-size: 38px;
   font-weight: 800;
   margin-bottom: 40px;
@@ -158,18 +152,18 @@ z-index: 2;
   font-family: "Inter", sans-serif;
 }
 
-.stats-container {
+.states-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.stat-box {
+.state-box {
   flex: 1 1 200px;
 }
 
-.stat-value {
+.state-value {
   font-size: 80px;
   font-weight: 900;
   color: #4E47FF;
@@ -178,7 +172,7 @@ z-index: 2;
   font-family: "Inter", sans-serif;
 }
 
-.stat-label {
+.state-label {
   font-size: 16px;
   color: #666;
   font-family: "Raleway", sans-serif;
